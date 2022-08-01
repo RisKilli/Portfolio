@@ -437,6 +437,8 @@ grid-row-gap: 0px;
 }
 
 .all_portefolio1 img {
+	display:flex;
+	justify-content:center;
   margin: 5px;
   box-shadow: 0 10px 25px 5px rgba(0,0,0,0.6);
   border-radius: 20px;
