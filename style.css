@@ -271,8 +271,8 @@ stroke:#e29550;
 
 .all_about_me{
 background-color:   #e29550;
-padding-top: 150px;
-padding-bottom:150px;
+padding-top: 100px;
+padding-bottom:50px;
 height: 100vh;
 }
 
@@ -404,20 +404,19 @@ footer img {
             grid-template-rows: 1fr;
             grid-column-gap: 0px;
             grid-row-gap: 0px;
-             padding:200px;
-             margin-top: -600px;
-            margin-bottom: -550px;
+            padding:20px;
+             margin-top: -760px;
+            
             
           }
           nav a{
  font-size:30px;
 }
-.about_me1{
-  
-  margin-left: -120px;
-  width: 150%;
-  
-  }
+
+
+ 
+
+
 .all_portefolio1 {
 
 padding-top: 70px;
