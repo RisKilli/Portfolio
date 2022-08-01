@@ -310,6 +310,7 @@ margin:10px;
 .all_portefolio1 {
 background-color:   #5a1a0d;
 padding-top: 70px;
+	padding-bottom:30px;
 display: grid;
 grid-template-columns: repeat(4, 1fr);
 grid-template-rows: repeat(3, 1fr);
@@ -360,7 +361,7 @@ grid-row-gap: 0px;
 
 
 footer{
-  padding-top: 80px;
+  
   background-color:   #5a1a0d;
 }
 footer section{
