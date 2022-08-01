@@ -411,9 +411,14 @@ footer img {
           nav a{
  font-size:30px;
 }
-
+.about_me1{
+  
+  margin-left: -120px;
+  width: 150%;
+  
+  }
 .all_portefolio1 {
-background-color:   #7858A6;
+
 padding-top: 70px;
 display: grid;
 grid-template-columns: 1fr;
@@ -421,9 +426,7 @@ grid-template-rows: 1fr;
 grid-column-gap: 0px;
 grid-row-gap: 0px;
 }
-.all_portefolio1 h1{
- 
-}
+
 .all_portefolio1 img {
   margin: 5px;
   box-shadow: 0 10px 25px 5px rgba(0,0,0,0.6);
