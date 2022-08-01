@@ -439,6 +439,7 @@ grid-row-gap: 0px;
 
 }
 .insideport{
+  margin-left: 0px;
   display:flex ;
   justify-content: center;
 }
