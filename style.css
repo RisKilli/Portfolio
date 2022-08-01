@@ -210,7 +210,7 @@ animation: scroll-down 1.5s ease-in-out infinite;
 .scroll-down::before {
 top: 30%;
 animation-delay: 2s;
-/* animation: scroll-down 1s ease-in-out infinite; */
+
 }
 
 @keyframes scroll-down {
@@ -272,7 +272,7 @@ stroke:#e29550;
 .all_about_me{
 background-color:   #e29550;
 padding-top: 100px;
-padding-bottom:50px;
+padding-bottom:100px;
 height: 100vh;
 }
 
@@ -290,6 +290,7 @@ grid-row-gap: 0px;
 box-shadow: 0 10px 25px 5px rgba(0,0,0,0.6);
 background-color:#5a1a0d;
 border-radius:10px;
+
 }
 .about_me h4{
 display:flex;
@@ -310,7 +311,7 @@ margin:10px;
 .all_portefolio1 {
 background-color:   #5a1a0d;
 padding-top: 70px;
-	padding-bottom:30px;
+padding-bottom: 20px;
 display: grid;
 grid-template-columns: repeat(4, 1fr);
 grid-template-rows: repeat(3, 1fr);
@@ -361,7 +362,7 @@ grid-row-gap: 0px;
 
 
 footer{
-  
+ 
   background-color:   #5a1a0d;
 }
 footer section{
@@ -395,14 +396,6 @@ footer img {
         {
             visibility: hidden;
         }
-	
-	.all_about_me{
-
-
-
-height: 70vh;
-}
-
         .about_me{
           
          
@@ -413,7 +406,7 @@ height: 70vh;
             grid-template-rows: 1fr;
             grid-column-gap: 0px;
             grid-row-gap: 0px;
-            padding:60px;
+            padding:20px;
              margin-top: -760px;
             
             
@@ -434,11 +427,11 @@ grid-template-columns: 1fr;
 grid-template-rows: 1fr;
 grid-column-gap: 0px;
 grid-row-gap: 0px;
+
 }
 
 .all_portefolio1 img {
-	display:flex;
-	justify-content:center;
+ 
   margin: 5px;
   box-shadow: 0 10px 25px 5px rgba(0,0,0,0.6);
   border-radius: 20px;
