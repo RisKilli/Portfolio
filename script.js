@@ -1,5 +1,5 @@
 $(window).on('load', function() {
-    $('.preloader').delay(3000).slideUp('slow');
+    $('.preloader').delay(2500).slideUp('slow');
     /*$('.preloader .avc').delay().slideUp('slow');*/
     $('.preloader>.left').delay(1500).slideUp('slow');
     $('.preloader>.right').delay(1500).slideUp('slow');
@@ -27,7 +27,7 @@ setTimeout(function(){
   setTimeout(function(){
   
   document.getElementById("all").classList.remove("all_visible");
-},3000);
+},2500);
 
 
 /*partis bienvenue  */
@@ -39,7 +39,7 @@ $(function(){
       showCursor:false,
   });
 });
-},3000);
+},2500);
 
 
 /*
