@@ -1,8 +1,8 @@
 $(window).on('load', function() {
-    $('.preloader').delay(7000).slideUp('slow');
+    $('.preloader').delay(2500).slideUp('slow');
     /*$('.preloader .avc').delay().slideUp('slow');*/
-    $('.preloader>.left').delay(2500).slideUp('slow');
-    $('.preloader>.right').delay(2500).slideUp('slow');
+    $('.preloader>.left').delay(1500).slideUp('slow');
+    $('.preloader>.right').delay(1500).slideUp('slow');
 });
 //pre Loader Js Ends 
 /*
@@ -27,7 +27,7 @@ setTimeout(function(){
   setTimeout(function(){
   
   document.getElementById("all").classList.remove("all_visible");
-},7500);
+},2500);
 
 
 /*partis bienvenue  */
@@ -39,7 +39,7 @@ $(function(){
       showCursor:false,
   });
 });
-},7500);
+},2500);
 
 
 /*
