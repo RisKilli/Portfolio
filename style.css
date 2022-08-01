@@ -134,8 +134,9 @@
 .preloader p{ /* ici changer le selecteur*/
     display:flex;
     justify-content: center;
-    margin-top: 45%;
+   align-items: center;
     color:white;
+    margin-top:45%;
     font-size:100px;
    
     transition: margin-right 2s;
@@ -145,7 +146,7 @@
 /*ici partis CV*/
 .all_visible{
     position:absolute;
-      top:-3500px;
+      top:-2500px;
     z-index:1;
     visibility:hidden;
     
@@ -423,8 +424,6 @@ grid-row-gap: 0px;
   grid-row-gap: 0px;
   }
   .all_portefolio1 h1{
-  
-   
    
   }
   .all_portefolio1 img {
@@ -450,5 +449,23 @@ grid-row-gap: 0px;
     transition: 1s;
     box-shadow: 20px 20px 30px 5px rgba(0,0,0,0.6);
   }
-
+  .txtavc{
+    position: absolute;
+        display: grid;
+        grid-template-columns: repeat(14, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 85px;
+         font-size:45px;
+         margin-top:-350px;
+  }
+  .premierP h1{
+    font-size:45px
+  }
+  .premierP p{
+    font-size:30px;
+  }
+  .all_portefolio1 p{
+    font-size:25px;
+  }
 }
