@@ -377,6 +377,12 @@ footer section{
 footer img {
   padding-right: 30px;
 }
+footer p{
+  background-color: #e29550;
+  display:flex;
+  justify-content:center;
+  
+}
 
 
 
