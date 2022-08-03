@@ -273,17 +273,18 @@ stroke:#e29550;
 background-color:   #e29550;
 padding-top: 100px;
 padding-bottom:100px;
-height:auto;
+height: 100vh;
 }
 
 .about_me{
 
-
+  padding-top: 100px;
 display: grid;
 grid-template-columns: repeat(3, 1fr);
 grid-template-rows: 1fr;
 grid-column-gap: 0px;
 grid-row-gap: 0px;
+
 
 }
 .about_me1{
@@ -378,7 +379,7 @@ footer img {
   padding-right: 30px;
 }
 footer p{
-  background-color: #e29550;
+   background-color: #e29550;
   display:flex;
   justify-content:center;
   
@@ -405,7 +406,7 @@ footer p{
         .about_me{
           
          
-
+           margin-top:-800px;
             font-size:30px;
             display: grid;
             grid-template-columns:1fr;
@@ -413,7 +414,7 @@ footer p{
             grid-column-gap: 0px;
             grid-row-gap: 0px;
             padding:20px;
-             margin-top: -760px;
+           
             
             
           }
