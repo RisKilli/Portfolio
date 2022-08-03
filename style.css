@@ -405,8 +405,8 @@ footer p{
         }
         .about_me{
           
-          padding-top: 300px;
-           margin-top:-800px;
+         
+           margin-top:-70%;
             font-size:30px;
             display: grid;
             grid-template-columns:1fr;
